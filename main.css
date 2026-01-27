@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f7fb;
+}
+
+.card {
+    width: 380px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.header {
+    background: linear-gradient(135deg, #2e3c72, #4c5c8f);
+    padding: 25px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.profile-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+}
+
+.company-name {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.name-title {
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+.tagline {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.contact {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+    color: #0066cc;
+}
+
+.contact-item i {
+    width: 25px;
+    margin-right: 12px;
+    color: #0066cc;
+}
+
+.contact-item .fa-linkedin {
+    color: #0077b5;
+}
+
+.contact-item:hover .fa-linkedin {
+    color: #005582;
+}
+
+.download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.download-button i {
+    margin-right: 12px;
+}
+
+.download-button:hover {
+    background: #0052cc;
+}
+
+.company-logo {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
