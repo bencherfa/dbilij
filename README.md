@@ -1,4 +1,4 @@
-# Digital Business Card - Benacer Cherfaoui
+# Digital Business Card - Abdelouahed DBILIJ
 
 This repository contains the source code for a digital business card webpage. Designed with a clean, responsive layout, the card prominently features contact information, a photo, and the logo of Benacer Cherfaoui, founder and CTO of SolvyTech.
 
